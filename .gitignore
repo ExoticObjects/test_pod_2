@@ -31,3 +31,11 @@ Carthage
 # `pod install` in .travis.yml
 #
 # Pods/
+.idea/.name
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/test_pod.iml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/xcode.xml

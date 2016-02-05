@@ -1,0 +1,25 @@
+{
+  "name": "test_pod",
+  "version": "0.1.0",
+  "summary": "A short description of test_pod.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/test_pod",
+  "license": "MIT",
+  "authors": {
+    "Exotic Objects": "jim@exoticobjects.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/test_pod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "test_pod": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
