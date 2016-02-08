@@ -11,9 +11,14 @@
 		0C9C10553AFC971B2DA0E768077A5BB1 /* test_pod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 649E69381287EC9D51AD03A7B11F2CC2 /* test_pod-dummy.m */; };
 		501515BD590D7259F3DF00F9D86502D2 /* test_pod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC69AE0E9840147370AEC79A659D1119 /* test_pod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5828673D240FF2016F31EDA1E930082E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		796C14B9D6340FA3327296E2162A7EC5 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 518BB8A50B4AB91B0EA6319B6506310F /* ReplaceMe.m */; };
 		AF85FBE31054E290DFCE668FFDEB2EEE /* test_pod.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E6C24700DFE8A71C7BCBB1FA037431D9 /* test_pod.bundle */; };
 		B8144D2DA1E0A2319160B4DAB7FF4CDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		E03F5DD41C694869005150AF /* EOTestOtherClass.h in Headers */ = {isa = PBXBuildFile; fileRef = E03F5DD01C694869005150AF /* EOTestOtherClass.h */; };
+		E03F5DD51C694869005150AF /* EOTestOtherClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E03F5DD11C694869005150AF /* EOTestOtherClass.m */; };
+		E03F5DD61C694869005150AF /* EOTestUseFrameworks.h in Headers */ = {isa = PBXBuildFile; fileRef = E03F5DD21C694869005150AF /* EOTestUseFrameworks.h */; };
+		E03F5DD71C694869005150AF /* EOTestUseFrameworks.m in Sources */ = {isa = PBXBuildFile; fileRef = E03F5DD31C694869005150AF /* EOTestUseFrameworks.m */; };
+		E03F5DDF1C6948ED005150AF /* EOTestClassInFirstLevelDirectory.h in Headers */ = {isa = PBXBuildFile; fileRef = E03F5DDD1C6948ED005150AF /* EOTestClassInFirstLevelDirectory.h */; };
+		E03F5DE01C6948ED005150AF /* EOTestClassInFirstLevelDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = E03F5DDE1C6948ED005150AF /* EOTestClassInFirstLevelDirectory.m */; };
 		EC136781E1A4D78E45AEEC6E6F363C7F /* Pods-test_pod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4E596F62C8D22CD06B35DC045232F /* Pods-test_pod_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +45,6 @@
 		2F7327D423EF3EDC281793E3B86F959C /* Pods-test_pod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-test_pod_Tests-resources.sh"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4D46481216285DD93EE99ABABD5529E1 /* Pods-test_pod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-test_pod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		518BB8A50B4AB91B0EA6319B6506310F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		5863E39D08B9E949AD49B262007E4E41 /* test_pod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "test_pod-prefix.pch"; sourceTree = "<group>"; };
 		5D424EEEC7F4C6AEB6D597AC4B4FAFE0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E86E1C60D4FCDD80C30171C84A7821F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +57,12 @@
 		C91D70B2FCD885454BD90D442863F4C2 /* Pods-test_pod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-test_pod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DC33213F4BFC04787F91BA26D747DE1C /* Pods-test_pod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-test_pod_Tests.modulemap"; sourceTree = "<group>"; };
 		DC69AE0E9840147370AEC79A659D1119 /* test_pod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "test_pod-umbrella.h"; sourceTree = "<group>"; };
+		E03F5DD01C694869005150AF /* EOTestOtherClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOTestOtherClass.h; sourceTree = "<group>"; };
+		E03F5DD11C694869005150AF /* EOTestOtherClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOTestOtherClass.m; sourceTree = "<group>"; };
+		E03F5DD21C694869005150AF /* EOTestUseFrameworks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOTestUseFrameworks.h; sourceTree = "<group>"; };
+		E03F5DD31C694869005150AF /* EOTestUseFrameworks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOTestUseFrameworks.m; sourceTree = "<group>"; };
+		E03F5DDD1C6948ED005150AF /* EOTestClassInFirstLevelDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOTestClassInFirstLevelDirectory.h; sourceTree = "<group>"; };
+		E03F5DDE1C6948ED005150AF /* EOTestClassInFirstLevelDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOTestClassInFirstLevelDirectory.m; sourceTree = "<group>"; };
 		E0E2BCD1AD307E92BA328FB9BC7ADFF9 /* Pods-test_pod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-test_pod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E6C24700DFE8A71C7BCBB1FA037431D9 /* test_pod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_pod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7D7D3A69D4D1C96AB9D1D08A9BEAE5 /* test_pod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = test_pod.xcconfig; sourceTree = "<group>"; };
@@ -129,7 +139,11 @@
 		6442E2F7B587D9BBD467BB46D96B6DD6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				518BB8A50B4AB91B0EA6319B6506310F /* ReplaceMe.m */,
+				E03F5DDC1C6948ED005150AF /* dir */,
+				E03F5DD01C694869005150AF /* EOTestOtherClass.h */,
+				E03F5DD11C694869005150AF /* EOTestOtherClass.m */,
+				E03F5DD21C694869005150AF /* EOTestUseFrameworks.h */,
+				E03F5DD31C694869005150AF /* EOTestUseFrameworks.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -189,6 +203,15 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		E03F5DDC1C6948ED005150AF /* dir */ = {
+			isa = PBXGroup;
+			children = (
+				E03F5DDD1C6948ED005150AF /* EOTestClassInFirstLevelDirectory.h */,
+				E03F5DDE1C6948ED005150AF /* EOTestClassInFirstLevelDirectory.m */,
+			);
+			path = dir;
+			sourceTree = "<group>";
+		};
 		F606F6E08DB8FEB6B0EC0A8DDDA2C076 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +235,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E03F5DD61C694869005150AF /* EOTestUseFrameworks.h in Headers */,
+				E03F5DD41C694869005150AF /* EOTestOtherClass.h in Headers */,
+				E03F5DDF1C6948ED005150AF /* EOTestClassInFirstLevelDirectory.h in Headers */,
 				501515BD590D7259F3DF00F9D86502D2 /* test_pod-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,8 +350,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				796C14B9D6340FA3327296E2162A7EC5 /* ReplaceMe.m in Sources */,
+				E03F5DD71C694869005150AF /* EOTestUseFrameworks.m in Sources */,
 				0C9C10553AFC971B2DA0E768077A5BB1 /* test_pod-dummy.m in Sources */,
+				E03F5DD51C694869005150AF /* EOTestOtherClass.m in Sources */,
+				E03F5DE01C6948ED005150AF /* EOTestClassInFirstLevelDirectory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
