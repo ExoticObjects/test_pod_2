@@ -1,4 +1,4 @@
-# to build framework using
+# build framework using
 # pod package test_pod_2.podspec --embedded --no-mangle --force
 
 Pod::Spec.new do |s|
@@ -13,25 +13,11 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '9.0'
   s.requires_arc = true
   s.source_files = 'Pod/Classes/**/*'
+  s.public_header_files = "Pod/Classes/**/*.h" # Not sure if I need this
   s.resource_bundles = {
     'test_pod' => ['Pod/Assets/*.png']
   }
-  s.dependency 'NGAParallaxMotion', '1.0.2'
-  s.dependency 'Igor', '0.5.0'
-  s.dependency 'UICKeyChainStore', '1.0.5'
-  s.dependency 'AFNetworking', '2.5.2'
   s.dependency 'STHTTPRequest', '1.0.2'
   s.dependency 'SDWebImage'
-  s.dependency 'SVProgressHUD', '1.0'
-  s.dependency 'CocoaLumberjack'
-  s.dependency 'ReactiveCocoa', '2.1.8'
-  s.dependency 'BlocksKit', '2.2.5'
-  s.dependency 'handlebars-objc', '1.4.3'
-  s.dependency 'FontAwesome+iOS', '0.1.4'
-  s.dependency 'FontAwesomeTools', '1.2'
-  s.dependency 'ActiveRecord', '1.2.2'
-  s.dependency 'UIView+AutoLayout'
-  s.dependency 'FMDB', '2.6'
-  s.dependency 'SimulatorStatusMagic', '1.7'
   #s.dependency 'Socket.IO-Client-Swift', '5.3.1' @cocoapods-packager won't do swift dependencies. Rome seems to be ok with them.
 end
