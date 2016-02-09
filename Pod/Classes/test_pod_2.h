@@ -1,9 +1,9 @@
 
 #import <UIKit/UIKit.h>
 
-#import "EOTestClassInFirstLevelDirectory.h"
-#import "EOTestOtherClass.h"
-#import "EOTestUseFrameworks.h"
+#import <test_pod_2/EOTestClassInFirstLevelDirectory.h>
+#import <test_pod_2/EOTestOtherClass.h>
+#import <test_pod_2/EOTestUseFrameworks.h>
 
 //! Project version number for test_pod_2.
 FOUNDATION_EXPORT double test_pod_2VersionNumber;
