@@ -1,4 +1,4 @@
-#to build framework using
+# to build framework using
 # pod package test_pod_2.podspec --embedded --no-mangle --force
 
 Pod::Spec.new do |s|
