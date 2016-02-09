@@ -1,4 +1,5 @@
-#to build framework: pod package test_pod_2.podspec --embedded --no-mangle --force
+#to build framework using
+# pod package test_pod_2.podspec --embedded --no-mangle --force
 
 Pod::Spec.new do |s|
   s.name             = "test_pod_2"
