@@ -13,6 +13,5 @@ Pod::Spec.new do |s| # build framework using: pod package test_pod_2.podspec --e
   s.source_files     = 'Pod/Classes/**/*'
   s.dependency 'STHTTPRequest', '1.0.2'
   s.dependency 'SDWebImage'
-  # s.dependency 'eo-attributed-markdown'
   s.dependency 'Socket.IO-Client-Swift', '5.3.1' # @cocoapods-packager won't do swift dependencies. Rome seems to be ok with them.
 end
